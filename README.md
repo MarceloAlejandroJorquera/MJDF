@@ -281,6 +281,11 @@ The Live page is the real-time operational view. It shows query/host activity, s
 
 The ACTION lever allows a visible hostname to be added to the blacklist or whitelist without manually switching to the Rules page.
 
+<p align="center">
+  <img width="1435" height="1211" alt="assets/screenshots/live-query-log" src="https://github.com/user-attachments/assets/8916896d-d126-4ca2-a335-2421da89dc24" />
+  <em>Live Query Log showing grouped DNS activity, source attribution, filtering state, latency, rule actions, and Top Blocked / Top Queried summaries.</em>
+</p>
+
 ### Stop / Play
 
 Stop freezes the **visible Live table**. Filtering and internal collection continue; buffered activity becomes visible again when Play is pressed. Rule changes while stopped do not force new query rows onto the visible frozen table.
@@ -289,11 +294,26 @@ Stop freezes the **visible Live table**. Filtering and internal collection conti
 
 The Stats page summarizes query activity, common names, sources and types. Drill-down dialogs expose the underlying event details.
 
+<p align="center">
+  <img width="1435" height="1339" alt="assets/screenshots/stats" src="https://github.com/user-attachments/assets/ebc8eda7-894f-423f-80e9-e241ecf5a9f2" />
+  <em>Statistics dashboard with query activity history, resolver totals, blocked/allowed/cached/observed distribution, source and record-type attribution, session performance, and domain rankings.</em>
+</p>
+
+<p align="center">
+  <em>Statistics dashboard with query activity history, resolver totals, blocked/allowed/cached/observed distribution, source and record-type attribution, session performance, and domain rankings.</em>
+</p>
+
 ### Lists
 
 The Lists page manages downloaded blocklists and their state. Configured remote lists can be refreshed automatically according to the configuration schedule.
 
-### Rules
+<p align="center">
+  <img width="1435" height="1192" alt="assets/screenshots/lists" src="https://github.com/user-attachments/assets/c797ddd2-04a8-4330-833d-759c4f801236" />
+  <em>Blocklist Manager exposing selectable Hagezi, security, privacy, content, and native-tracker filtering categories.</em>
+</p>
+
+### Rules![Uploading lists.png…]()
+
 
 The Rules page exposes three user-authored rule sets:
 
@@ -302,6 +322,14 @@ The Rules page exposes three user-authored rule sets:
 - **Hiddenlist** — names hidden from dashboard presentation; this is a visibility rule, not a network allow/block rule.
 
 Rules are persisted independently from attach/detach state.
+
+<p align="center">
+  <img width="1435" height="1193" alt="rules" src="https://github.com/user-attachments/assets/a27e82c7-4e94-4651-9df1-93410e72854f" />
+  <em>Persistent Blacklist, Whitelist, and Hiddenlist editors with explicit hostname and wildcard rule syntax.</em>
+</p>
+
+<p align="center">
+</p>
 
 ---
 
