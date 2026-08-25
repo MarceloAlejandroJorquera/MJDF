@@ -1,0 +1,28 @@
+MJ DNS FILTER — Binary Release License and Distribution Notice
+
+Copyright (c) 2026 MJ DNS FILTER contributors.
+All rights reserved.
+
+This is a binary-only public release repository. The MJ DNS FILTER application source
+code is not published or licensed through this repository.
+
+Permission is granted to end users to download and execute official, unmodified
+MJ DNS FILTER binary releases for their intended purpose. No permission is granted
+by this notice to modify, reverse engineer where prohibited by applicable law,
+repackage, sublicense, sell, bundle, redistribute, or create derivative distributions
+of MJ DNS FILTER without separate written permission from the applicable copyright
+holder(s), except to the extent such a restriction is prohibited by applicable law.
+
+Public availability on GitHub does not grant an open-source license and does not
+create any right to obtain the application's source code.
+
+Repository documentation and release metadata remain copyrighted unless a file
+explicitly states otherwise. Third-party components and data are not relicensed by
+this notice and remain subject to their respective upstream licenses and terms. See
+THIRD_PARTY_NOTICES.md for additional information.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE AND NON-INFRINGEMENT. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE
+AUTHORS OR COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.

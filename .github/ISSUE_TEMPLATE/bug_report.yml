@@ -1,0 +1,70 @@
+name: Bug report
+description: Report a reproducible MJ DNS FILTER defect
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For security-sensitive bypasses or vulnerabilities, use the process in SECURITY.md instead of a public issue.
+  - type: input
+    id: version
+    attributes:
+      label: MJDF version
+      placeholder: v1
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version/build
+      placeholder: Windows 11 24H2, build ...
+    validations:
+      required: true
+  - type: dropdown
+    id: route
+    attributes:
+      label: DNS route when the issue occurs
+      options:
+        - Filtered / 127.0.0.1 + ::1
+        - Direct / Cloudflare
+        - Transitioning / yellow
+        - Unknown
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Include whether you used the tray or dashboard sphere and how quickly steps were performed.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized diagnostics
+      description: Remove private domains, Rules and certificate/private-key material before posting.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I tested the newest public release.
+        - label: I reviewed logs/screenshots for sensitive DNS history before attaching them.
+        - label: This is not a private security vulnerability report.

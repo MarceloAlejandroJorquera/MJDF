@@ -1,0 +1,16 @@
+* text=auto
+*.rs text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=crlf
+*.bat text eol=crlf
+*.vbs text eol=crlf
+*.c text eol=lf
+*.h text eol=lf
+*.png binary
+*.ico binary
+*.ttf binary
+*.exe binary
+*.zip binary

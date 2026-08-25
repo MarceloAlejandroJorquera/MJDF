@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a new capability or improvement
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / use case
+      description: What limitation are you trying to solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security/routing implications
+      description: Note any effect on DNS ownership, WFP, browser policy, privileges, Rules or startup behavior.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - DNS filtering
+        - Detection / attribution
+        - WFP enforcement
+        - Rules
+        - Blocklists
+        - Dashboard
+        - Browser integration
+        - Routing / startup
+        - Build / packaging
+        - Other

@@ -1,0 +1,6 @@
+# Generate the real checksum from the final public MJDFv1.exe.
+# Example:
+#   generate-SHA256-MJDFv1.bat "C:\path\to\MJDFv1.exe"
+#
+# Expected release-file format:
+# <64 lowercase hexadecimal SHA-256 characters> *MJDFv1.exe
