@@ -312,7 +312,7 @@ The Lists page manages downloaded blocklists and their state. Configured remote 
   <em>Blocklist Manager exposing selectable Hagezi, security, privacy, content, and native-tracker filtering categories.</em>
 </p>
 
-### Rules![Uploading lists.png…]()
+### Rules
 
 
 The Rules page exposes three user-authored rule sets:
