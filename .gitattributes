@@ -1,3 +1,6 @@
+# This repository is binary-only. Utility batch scripts are release tooling,
+# not representative of MJ DNS FILTER's implementation language.
+*.bat linguist-detectable=false
 * text=auto
 *.rs text eol=lf
 *.toml text eol=lf
